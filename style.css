@@ -12,6 +12,31 @@ p, li {
   font-family: 'Montserrat', sans-serif;
 }
 
+#lista-de-habilidades li:nth-of-type(odd) {
+  font-style: italic;
+}
+
+.descricao {
+  padding: 50px;
+}
+
+.info {
+  display: flex;
+}
+
 .listItems {
   font-size: 34px;
+}
+
+.foto {
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.habilidades {
+  clear: both;
+}
+
+.nome {
+  text-align: center;
 }
