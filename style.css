@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+
+body {
+  background-color: #C7DBE6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p, li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#lista-de-habilidades li:nth-of-type(odd) {
+  font-style: italic;
+}
+
+.descricao {
+  padding: 50px;
+}
+
+.info {
+  display: flex;
+}
+
+.listItems {
+  font-size: 34px;
+}
+
+.foto {
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+.habilidades {
+  clear: both;
+}
+
+.nome {
+  text-align: center;
+}

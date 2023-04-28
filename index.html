@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio do Claus Haas</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
 
-      body {
-        background-color: #C7DBE6;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio do Claus Haas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Roboto', sans-serif;
-      }
-
-      p, li {
-        font-family: 'Montserrat', sans-serif;
-      }
-
-      .listItems {
-        font-size: 34px;
-      }
-    </style>
-  </head>
-  <body>
-    <ol>
-      <li>
-        <a href="#photo">Minha foto</a>
-      </li>
-      <li>
-        <a href="#quem_sou_eu">Quem sou eu</a>
-      </li>
-      <li>
-        <a href="#links">Links</a>
-      </li>
-    </ol>
-    <h1>Claus Haas</h1>
-    <img src="claus-e-cadu.jpeg" id="photo" alt="Foto do Claus e seu marido, Cadu, o Claus está a direita na foto" width="300" />
-    <h2 id="quem_sou_eu">
-      Quem sou eu
-    </h2>
-    <p>
-      Olá, me chamo Claus Haas, <strong>sou brasileiro</strong>, natural de Porto Alegre, <em>mas atualmente morador de Paulínia - SP</em>.
-    </p>
+<body>
+  <ol>
+    <li>
+      <a href="#photo">Minha foto</a>
+    </li>
+    <li>
+      <a href="#quem_sou_eu">Quem sou eu</a>
+    </li>
+    <li>
+      <a href="#links">Links</a>
+    </li>
+  </ol>
+  <div>
+    <h1 class="nome">Claus Haas</h1>
+    <div class="info">
+      <div class="foto">
+        <img src="claus-e-cadu.jpeg" id="photo" alt="Foto do Claus e seu marido, Cadu, o Claus está a direita na foto"
+          width="300" />
+      </div>
+      <div class="descricao">
+        <h2 id="quem_sou_eu">
+          Quem sou eu
+        </h2>
+        <p>
+          Olá, me chamo Claus Haas, <strong>sou brasileiro</strong>, natural de Porto Alegre, <em>mas atualmente morador
+            de Paulínia - SP</em>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="habilidades">
     <h2>
       Minhas Habilidades
     </h2>
-    <ul>
-        <li class="listItems">
-          Full Stack Developer
-        </li>
-        <li class="listItems">
-          Orchids Lover
-        </li>
-        <li class="listItems">
-          Entrepeneur
-        </li>
+    <ul id="lista-de-habilidades">
+      <li class="listItems">
+        Full Stack Developer
+      </li>
+      <li class="listItems">
+        Orchids Lover
+      </li>
+      <li class="listItems">
+        Entrepeneur
+      </li>
     </ul>
     <h2 id="links">
       Links
@@ -68,5 +63,7 @@
     <p>
       E aqui outro <a href="https://macmagazine.com.br" target="_blank">link</a> para um blog que gosto muito.
     </p>
-  </body>
+  </div>
+</body>
+
 </html>
